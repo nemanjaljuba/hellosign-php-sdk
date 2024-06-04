@@ -54,6 +54,8 @@ class EmbeddedResponse extends AbstractResource
      */
     protected $expires_at = null;
 
+    public $attachments;
+    
     /**
      * @return string
      * @ignore
