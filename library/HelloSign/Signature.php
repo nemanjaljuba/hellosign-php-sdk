@@ -102,6 +102,7 @@ class Signature extends AbstractObject
 
     public $has_sms_auth;
     public $has_sms_delivery;
+    public $sms_phone_number;
     
     /**
      * @return string
