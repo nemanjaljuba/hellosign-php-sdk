@@ -148,6 +148,8 @@ class SignatureRequest extends AbstractSignatureRequest
      */
     protected $form_fields_per_document = array();
 
+    public $created_at;
+    
     /**
      * Constructor
      *
