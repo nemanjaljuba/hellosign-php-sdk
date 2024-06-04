@@ -100,6 +100,8 @@ class Signature extends AbstractObject
      */
     protected $has_pin = null;
 
+    public $has_sms_auth;
+    
     /**
      * @return string
      * @ignore
