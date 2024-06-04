@@ -150,6 +150,7 @@ class SignatureRequest extends AbstractSignatureRequest
 
     public $created_at;
     public $expires_at;
+    public $is_declined;
     
     /**
      * Constructor
