@@ -56,6 +56,8 @@ class TemplateSignatureRequest extends AbstractSignatureRequest
      */
     protected $ccs = array();
 
+    public $attachments;
+    
     /**
      * Set the template ID, along with an optional order
      * @param string $id
